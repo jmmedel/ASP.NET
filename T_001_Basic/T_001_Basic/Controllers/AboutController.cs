@@ -3,18 +3,15 @@
 using System;
 namespace T_001_Basic.Controllers
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
-           
+           //42.57
             return View();
         }
 
-        public IActionResult Error()
-        {
-            return View();
-        }
+        
        
     }
 }
