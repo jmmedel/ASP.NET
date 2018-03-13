@@ -10,7 +10,7 @@ namespace T_001_Basic
         {
             BuildWebHost(args).Run();
         }
-        // 30.22
+        
         public static IWebHost BuildWebHost(string[] args) {
             return new WebHostBuilder()
                   .UseKestrel()

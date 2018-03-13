@@ -30,7 +30,7 @@ namespace T_001_Basic
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
+                
             }
             else
             {
