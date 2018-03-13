@@ -1,13 +1,13 @@
-﻿using System;
+﻿using DrinkAndGo.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using T_002_MVC.Data.Model;
 
-namespace T_002_MVC.Data.Interfaces
+namespace DrinkAndGo.Data.Interfaces
 {
-    public  interface ICategoryRepository
+    public interface ICategoryRepository
     {
-        IEnumerable <Category> Categories { get; }
+        IEnumerable<Category> Categories { get;}
     }
 }
