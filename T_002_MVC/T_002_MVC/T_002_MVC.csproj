@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Componetns\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="TagHelpers\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

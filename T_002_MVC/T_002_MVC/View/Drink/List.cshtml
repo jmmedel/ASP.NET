@@ -1,0 +1,20 @@
+﻿@using T_002_MVC.Data.Model
+@model IEnumerable<Drink>
+
+<div>
+    <h2>All Drinks are show here</h2>
+</div>
+
+@{ 
+    foreach(var drink in Model)
+    {
+
+        <div>
+            <h4>Drink Name: @drink.Name</h4>
+            <p>Price: @drink.price.ToString("c")</p>
+        </div>
+    }
+
+}
+
+
